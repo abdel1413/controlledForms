@@ -1,7 +1,9 @@
 import "./App.css";
 import ControlledInput from "./ControlledInput";
+import ControlledSubmit from "./ControlledSubmit";
 import Counter from "./Counter";
 import CurrentDate from "./CurrentDate";
+import StateAsProps from "./StateAsProps";
 import StatelesFunc from "./StatelessFucn";
 import ToDo from "./ToDo";
 import ToggleIt from "./ToggleIt";
@@ -17,6 +19,8 @@ function App() {
       <ToggleIt />
       <Counter />
       <ControlledInput />
+      <ControlledSubmit />
+      <StateAsProps />
     </div>
   );
 }

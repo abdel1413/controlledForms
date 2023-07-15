@@ -12,6 +12,7 @@ class ToggleIt extends React.Component {
     //1st way
     this.setState((state) => ({ visibility: !state.visibility }));
 
+    //2nd way
     this.setState((state) => {
       if (state.visibility === true) {
         return (state.visibility = false);

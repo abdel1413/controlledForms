@@ -25,7 +25,7 @@ class ControlledSubmit extends React.Component {
           <input onChange={this.handleChange} value={this.state.inputV} />
           <button type="submit">Submit</button>
         </form>
-        <h1>{this.state.submitV}</h1>
+        <h1> Here is you form value: {this.state.submitV}</h1>
       </div>
     );
   }
