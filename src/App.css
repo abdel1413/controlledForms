@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: #61dafb;
+}
+ul > li {
+  list-style: none;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+div {
+  border-bottom: 1px solid gray;
+}
+
+button {
+  margin-bottom: 1rem;
+}
