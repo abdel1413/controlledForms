@@ -6,7 +6,8 @@ class RenderInput extends React.Component {
   render() {
     return (
       <div>
-        <p> This is the input value from parent: {this.props.input}</p>
+        <h2>Rendering Input:</h2>
+        <span> This is the input value from parent: {this.props.input}</span>
       </div>
     );
   }
