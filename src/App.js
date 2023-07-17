@@ -3,6 +3,7 @@ import ControlledInput from "./ControlledInput";
 import ControlledSubmit from "./ControlledSubmit";
 import Counter from "./Counter";
 import CurrentDate from "./CurrentDate";
+import GameOfChance from "./GameOfChance/GameOfChance";
 import ComponentDidmount from "./LifeCycle/ComponentDidmount";
 import ComponentDidtmountEvent from "./LifeCycle/ComponentDidmountEvent";
 import ComponentWillMount from "./LifeCycle/ComponentWillMount";
@@ -37,6 +38,7 @@ function App() {
       <RandomDisplay />
       <ToggleToDisplay />
       <ToggleTenery />
+      <GameOfChance />
     </div>
   );
 }
