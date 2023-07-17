@@ -3,7 +3,12 @@ import ControlledInput from "./ControlledInput";
 import ControlledSubmit from "./ControlledSubmit";
 import Counter from "./Counter";
 import CurrentDate from "./CurrentDate";
+import ComponentDidmount from "./LifeCycle/ComponentDidmount";
+import ComponentDidtmountEvent from "./LifeCycle/ComponentDidmountEvent";
+import ComponentWillMount from "./LifeCycle/ComponentWillMount";
+import ShouldCompDidUpd from "./LifeCycle/ShouldCompDidUpd";
 import MyParent from "./Methd&StateAsProp/MyParent";
+import RandomDisplay from "./RandomDisplay";
 import StateAsProps from "./StateAsProp/StateAsProps";
 import StatelesFunc from "./StatelessFucn";
 import ToDo from "./ToDo";
@@ -23,6 +28,11 @@ function App() {
       <ControlledSubmit />
       <StateAsProps />
       <MyParent />
+      <ComponentWillMount />
+      <ComponentDidmount />
+      <ComponentDidtmountEvent />
+      <ShouldCompDidUpd />
+      <RandomDisplay />
     </div>
   );
 }

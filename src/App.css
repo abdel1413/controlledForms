@@ -16,6 +16,7 @@ div {
   border-bottom: 1px solid gray;
 }
 
-button {
-  margin-bottom: 1rem;
+button,
+input {
+  margin: 1rem 0;
 }
