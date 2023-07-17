@@ -25,16 +25,16 @@ class ToggleIt extends React.Component {
   render() {
     if (this.state.visibility) {
       return (
-        <>
+        <div>
           <button onClick={this.toggleClick}>Click Me!</button>
           <h1> Now You See Me</h1>
-        </>
+        </div>
       );
     } else {
       return (
-        <>
+        <div>
           <button onClick={this.toggleClick}>Click Me! </button>
-        </>
+        </div>
       );
     }
   }

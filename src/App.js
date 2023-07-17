@@ -13,6 +13,8 @@ import StateAsProps from "./StateAsProp/StateAsProps";
 import StatelesFunc from "./StatelessFucn";
 import ToDo from "./ToDo";
 import ToggleIt from "./ToggleIt";
+import ToggleTenery from "./ToggleTenery";
+import ToggleToDisplay from "./ToggleToDisplay";
 import TypeOfFood from "./TypeOfFood";
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
       <ComponentDidtmountEvent />
       <ShouldCompDidUpd />
       <RandomDisplay />
+      <ToggleToDisplay />
+      <ToggleTenery />
     </div>
   );
 }
